@@ -469,11 +469,19 @@ a {
     background-attachment: scroll;
   }
 
+  #contact-cover{
+    background-attachment: scroll;
+  }
+
 }
 
  /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   #home-cover{
+    background-attachment: scroll;
+  }
+
+  #contact-cover{
     background-attachment: scroll;
   }
 
@@ -484,11 +492,19 @@ a {
   #home-cover {
     background-attachment: scroll;
   }
+
+  #contact-cover{
+    background-attachment: scroll;
+  }
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   #home-cover {
+    background-attachment: scroll;
+  }
+  
+  #contact-cover{
     background-attachment: scroll;
   }
 }
