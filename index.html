@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- required meta tags  -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- title  -->
+  <title>I'm Kendy Huynh</title>
+
+  <!-- favicon  -->
+  <link rel="shortcut icon" href="img/favicon1.ico">
+
+  <!-- Sequence matters; we are going to use this google font inside style.css file. Hence, we place roboto condensed font link first -->
+  <!-- Google Fonts: Roboto Condensed Font  -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+
+  <!-- font-awesome version 5.0.10  -->
+  <link rel="stylesheet" href="css/font-awesome/css/fontawesome-all.css">
+
+  <!-- bootstrap CSS  -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+  <!-- animate-on-scroll (aos) CSS  -->
+  <link rel="stylesheet" href="css/aos/aos.css">
+
+  <!-- magnific-popup CSS  -->
+  <link rel="stylesheet" href="css/magnific-popup/magnific-popup.css">
+
+  <!-- owl-carousel CSS -->
+  <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
+
+  <!-- style CSS  -->
+  <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+  <!-- Navigation  -->
+  <section id="nav">
+    <div class="btn-group">
+    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#home">Home</a>
+      <a class="dropdown-item" href="#about">About Me</a>
+      <a class="dropdown-item" href="#subjects">Subjects</a>
+      <a class="dropdown-item" href="#contact">Contact Me</a>
+      <img id="logo" src="img/my-logo.jpg" alt="logo">
+    </div>
+    </div>
+  </section>
+
+  <!-- Home  -->
+  <section id="home">
+    <!-- refer to https://github.com/daneden/animate.css for Class name of animation  -->
+    <!--class animated is pre-defined in animate.css -->
+
+    <div id="home-cover" class="bg-parallax" data-aos="fade-down">
+
+
+      <div id="home-content-box">
+
+
+        <div id="home-content-box-inner">
+
+          <div id="home-heading" data-aos="fade-down">
+
+            <h3 id="name">Hi, I'm <br><br> Kendy Huynh</h3>
+
+          </div>
+          <!-- End of home-heading -->
+
+          <!-- Using pre-defined btn classes from Bootstrap -->
+          <div id="home-btn" data-aos="fade-down">
+            <a class="btn btn-lg btn-general btn-white" href="#about" role="button" title="Read More">Read More</a>
+
+          </div>
+          <!-- End of home-btn -->
+
+        </div>
+        <!-- End of home-content-box-inner -->
+
+
+      </div>
+      <!-- End of home-content-box -->
+
+    </div>
+    <!-- End of home-cover -->
+
+  </section>
+
+  <!-- About  -->
+  <section id="about">
+    <div id="about-cover">
+
+      <div class="about-content-box">
+
+          <!-- The data attributes gives us the ability to embed custom data attributes on html elements.
+          data-wow-delay: Delays the loading time, data-wow-duration: Amount of time to load animation -->
+        <div class="content-title" data-aos="fade-up">
+          <h3 id="about-me-title">About Me</h3>
+          <div class="content-title-underline"></div>
+        </div>
+
+        <div class="row">
+
+          <div class="col-md-12" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine"       data-aos-delay="1000">
+            <div id="display-pic" class="img-wrapper1">
+              <a href="img/display-pic-ken04.jpg" title="Kendy Huynh">
+                  <img src="img/display-pic-ken04.jpg" class="img-responsive" alt="Kendy">
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="container">
+
+          <div class="row" data-aos="fade-down">
+
+            <div class="col-md-12">
+              <div id="about-slider" class="about-me-space owl-carousel owl-theme">
+                  <div id="about-me" class="about-myself">
+                      <h3 id="title-experience">My Experience</h3>
+                      <div class="content-title-underline"></div>
+                      <p>I am a Year 10 student of Sydney Technical High School. Through Schooling I have built on various skill sets such as leadership, communication and teamwork.
+                      </p>
+                  </div>
+
+                  <div id="quote" class="about-myself">
+                      <h3 id="title-my-skills">Skills</h3>
+                      <div class="content-title-underline"></div>
+                      <ul id="my-skills-list">
+                        <li>Exceptional communication skills</li>
+                        <li>Microsoft Office proficient</li>
+                        <li>Quick learner</li>
+                        <li>Friendly demeanour in person or on the phone</li>
+                        <li>Team player</li>
+                        <li>Able to work independently if necessary</li>
+                        <li>Bilingual - English and Vietnamese </li>
+                      </ul>
+
+                  </div>
+
+                  <div id="quote" class="about-myself">
+                      <h3 id="title-quote">Inspirational Quote <br><br> That I Live By.</h3>
+                      <div class="content-title-underline"></div>
+                      <p>“Success doesn’t come to you. You go to it.” ―Marva Collins</p>
+
+                  </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+      </div> <!-- End of about content box -->
+
+    </div>
+
+  </section>
+
+  <!-- Subjects -->
+  <section id="subjects">
+
+    <div class="subjects-content-box">
+
+      <!-- The data attributes gives us the ability to embed custom data attributes on html elements.
+        data-wow-delay: Delays the loading time, data-wow-duration: Amount of time to load animation -->
+      <div class="content-title" data-aos="slide-up" data-aos-offset="300" data-aos-easing="ease-in-sine"  data-aos-delay="300">
+        <h3 id="my-subjects-title">Subjects I Study</h3>
+        <div class="content-title-underline"></div>
+      </div>
+
+      <div class="container">
+
+        <div class="row">
+
+          <!-- Start of 1st icon  -->
+          <div class="col-md-6" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine"  data-aos-delay="500">
+            <div class="subject-item">
+
+              <div id="subject-maths">
+                <i class="fas fa-book fa-7x"></i>
+              </div>
+
+              <div id="title-maths">
+                <h3>Maths</h3>
+              </div>
+
+            </div>
+          </div>
+          <!-- End of 1st icon  -->
+
+          <!-- Start of 2nd icon  -->
+          <div class="col-md-6" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"  data-aos-delay="500">
+            <div class="subject-item">
+
+              <div id="subject-english">
+                <i class="fas fa-book fa-7x"></i>
+              </div>
+
+              <div id="title-english">
+                <h3>English</h3>
+              </div>
+            </div>
+          </div>
+          <!-- End of 2nd icon  -->
+        </div>
+        <div class="row">
+          <!-- Start of 3rd icon  -->
+          <div class="col-md-6" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine"  data-aos-delay="600">
+            <div class="subject-item">
+
+              <div id="subject-science">
+                <i class="fas fa-book fa-7x"></i>
+              </div>
+
+              <div id="title-science">
+                <h3>Science</h3>
+              </div>
+            </div>
+          </div>
+          <!-- End of 3rd icon  -->
+
+          <!-- Start of 4th icon  -->
+          <div class="col-md-6" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"  data-aos-delay="600">
+            <div class="subject-item">
+
+              <div id="subject-history">
+                <i class="fas fa-book fa-7x"></i>
+              </div>
+
+              <div id="title-history">
+                <h3>History</h3>
+              </div>
+            </div>
+          </div>
+          <!-- End of 4th icon  -->
+
+
+        </div>
+
+        <div class="row">
+
+          <!-- Start of 5th icon  -->
+          <div class="col-md-6" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine"  data-aos-delay="500">
+            <div class="subject-item">
+
+              <div id="subject-geography">
+                <i class="fas fa-book fa-7x"></i>
+              </div>
+
+              <div id="title-geography">
+                <h3>Geography</h3>
+              </div>
+
+            </div>
+          </div>
+          <!-- End of 5th icon  -->
+
+          <!-- Start of 6th icon  -->
+          <div class="col-md-6" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"  data-aos-delay="500">
+            <div class="subject-item">
+
+              <div id="subject-commerce">
+                <i class="fas fa-book fa-7x"></i>
+              </div>
+
+              <div id="title-commerce">
+                <h3>Commerce</h3>
+              </div>
+            </div>
+          </div>
+          <!-- End of 6th icon  -->
+        </div>
+        <div class="row">
+          <!-- Start of 7th icon  -->
+          <div class="col-md-6" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine"  data-aos-delay="600">
+            <div class="subject-item">
+
+              <div id="subject-engineering">
+                <i class="fas fa-book fa-7x"></i>
+              </div>
+
+              <div id="title-engineering">
+                <h3>Engineering</h3>
+              </div>
+            </div>
+          </div>
+          <!-- End of 7th icon  -->
+
+          <!-- Start of 8th icon  -->
+          <div class="col-md-6" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"  data-aos-delay="600">
+            <div class="subject-item">
+
+              <div id="subject-pass">
+                <i class="fas fa-book fa-7x"></i>
+              </div>
+
+              <div id="title-pass">
+                <h3>PASS</h3>
+                <p>(Physical Activity &Sports Studies)</p>
+              </div>
+            </div>
+          </div>
+          <!-- End of 8th icon  -->
+
+
+        </div>
+
+
+        <div class="row">
+          <!-- Start of 9th icon  -->
+          <div class="col-md-6" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine"  data-aos-delay="600">
+            <div class="subject-item">
+
+              <div id="subject-pdhpe">
+                <i class="fas fa-book fa-7x"></i>
+              </div>
+
+              <div id="title-pdhpe">
+                <h3>PDHPE</h3>
+                <p>(Personal Development, Health and Physical Education)</p>
+              </div>
+            </div>
+          </div>
+          <!-- End of 9th icon  -->
+
+        </div>
+
+
+
+
+
+
+
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Contact  -->
+  <section id="contact">
+
+    <div id="contact-cover" class="bg-parallax" data-aos="fade-down">
+
+
+      <div class="content-box">
+        <!-- The data attributes gives us the ability to embed custom data attributes on html elements.
+        data-wow-delay: Delays the loading time, data-wow-duration: Amount of time to load animation -->
+        <div class="content-title" data-aos="zoom-in" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-delay="600">
+          <h3 id="contact-me">Stay Connected</h3>
+          <div class="content-title-underline"></div>
+          <h4 id="email">EMAIL: khuynh1312@gmail.com</h4>
+        </div>
+
+
+        <div class="container">
+
+
+        </div>
+      </div> <!-- End of content-box -->
+
+      <!-- Button for My Project  -->
+      <div id="contact-btn" data-aos="fade-down">
+        <a class="btn btn-lg btn-general btn-blue" href="#home" role="button">Back to Top</a>
+      </div>
+      <!-- End -->
+
+    </div>
+
+  </section>
+
+  <!-- jQuery & JS -->
+  <section id="jquery-js">
+
+    <!-- jquery before custom js because sequence matters  -->
+    <!-- jquery  -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap is a free and open-source fron-end web development framework for designing websites and web applications.  -->
+    <!-- Bootstrap requires jQuery library therefore we place it after the jquery script  -->
+
+
+    <!-- bootstrap JS  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+    <!-- aos JS (Requires jQuery Library so therefor we place it after jquery.js)  -->
+    <script src="js/aos/aos.js"></script>
+
+    <!-- magnific-popup JS  -->
+    <script src="js/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- owl-carousel JS  -->
+    <script src="js/owl-carousel/owl.carousel.min.js"></script>
+
+    <!-- smooth-scroll JS  -->
+    <script src="js/smooth-scroll/smooth-scroll.min.js"></script>
+
+    <!-- custom JS  -->
+    <script src="js/custom.js"></script>
+
+  </section>
+
+
+
+
+</body>
+
+</html>

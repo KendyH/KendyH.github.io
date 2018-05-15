@@ -1,0 +1,493 @@
+/*========================================================================
+DEFAULT VALUES:
+
+Font Family : Roboto Condensed
+==========================================================================*/
+/* General CSS */
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+/*========================================================================
+                            PARALLAX (Generic)
+========================================================================== */
+
+.bg-parallax {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/*========================================================================
+                            BUTTONS (Generic)
+========================================================================== */
+
+/* General btn is used for other btns which share the common style so we don't have to repeat ourselves when we create more buttons.  */
+
+.btn-general {
+  border-width: 2px;
+  border-radius: 0;
+  /* Padding is used to create space in the anchor element "[READ MORE]".(Padding format: TOP, RIGHT, BOTTOM, LEFT) */
+  padding: 12px 26px 12px 26px font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #41464b;
+  margin-top: 60px;
+}
+
+/* The :hover selector is used to select elements when you mouse over them. */
+
+.btn-white:hover, .btn-white:focus {
+  background-color: #fff;
+  color: #0488f4;
+}
+
+.btn-blue {
+  border-color: #0488f4;
+  color: white;
+  margin-top: 60px;
+  background-color: #0488f4;
+}
+
+.btn-blue:hover, .btn-blue:focus {
+  border-color: black;
+  color: white;
+  margin-top: 60px;
+  background-color: black;
+}
+
+/*========================================================================
+                                Animate
+========================================================================== */
+
+#home-cover, #home-heading, #home-btn {
+  animation-duration: .5s;
+}
+
+#home-cover {
+  animation-delay: .1s;
+}
+
+#home-heading {
+  animation-delay: .5s;
+}
+
+#home-btn {
+  animation-delay: 1s;
+}
+
+/*========================================================================
+                          Content (Generic)
+========================================================================== */
+
+/* Padding format: TOP, RIGHT, BOTTOM, LEFT */
+
+.content-box {
+  padding: 60px 0px 60px 0px;
+}
+
+.content-title h3 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  /* marign format: TOP, RIGHT, BOTTOM, LEFT */
+  */ margin: 0 0 30px 0;
+}
+
+/* .content-title-white h3{
+  color: white;
+
+} */
+.content-title-underline {
+  width: 100px;
+  height: 2px;
+  background-color: #0488f4;
+  margin: 0 auto 50px auto;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+    outline: 0;
+}
+/*========================================================================
+                          Navigation
+========================================================================== */
+#logo {
+  background-repeat: no-repeat;
+  /* The max-width CSS property sets the maximum width of an element. It prevents the used value of the width property from becoming larger than the value specified by max-width.  */
+  max-width: 100%;
+}
+#nav {
+  position: fixed;
+  /* The top CSS property participates in specifying the vertical position of a positioned element.  */
+  top: 0;
+  left: 0;
+  /* The z-index property specifies the stack order of an element.
+  Note: z-index only works on positioned elements (position:absolute, position:relative, or position:fixed).  */
+  z-index: 4;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: darkgray;
+    border-color: #6c757d;
+    opacity: 0.2;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: lightslategrey;
+    opacity: 1;
+}
+/*========================================================================
+                                  HOME
+========================================================================== */
+#home {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+#home-cover {
+  padding-top: 1%;
+  height: 100vh;
+  width: auto;
+  background-image: url("../img/bg-home02.jpeg");
+}
+
+#home-content-box {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+#home-content-box-inner {
+  /* table-cell: Allows the element to behave like a <td> element */
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+  padding: 10%;
+}
+
+#home-heading h3 {
+  text-align: left;
+  color: white;
+  font-size: 38px;
+  font-weight: 700;
+  margin: -10px 0 50px 0;
+  font-family: 'Noto Serif', serif;
+  text-transform: uppercase;
+  text-shadow: 4px 4px black;
+  letter-spacing: 3px;
+}
+
+/*========================================================================
+                              ABOUT-ME
+========================================================================== */
+#about-me-title {
+  margin-top: 50px;
+}
+
+#quote {
+  text-align: center;
+}
+
+#my-skills-list {
+  text-align: center;
+  list-style: none;
+  margin-left: -5%;
+}
+
+.about-myself {
+  max-width: 900px;
+  /* center align an element with margin  */
+  margin: 0 auto 0 auto;
+}
+
+/* Select all the columns of row and no gutter class  */
+.img-wrapper1 {
+  overflow: hidden;
+  outline: 0;
+}
+
+.img-wrapper1 img {
+  /* transition property allows you to change the values smoothly from one value to another over a given duration.  */
+  transition: transform .5s ease;
+  margin: 0 0 5% 30%;
+  max-width: 40%;
+  border: solid #0488f4
+}
+
+/* magnifies image with ease with above property  */
+
+.img-wrapper1 img:hover {
+  transform: scale(1.2);
+  cursor: zoom-in;
+}
+
+#title-experience, #title-passion{
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+
+#about-btn {
+  margin: 0 0 50px 30px;
+}
+
+
+/*========================================================================
+                                subjects
+========================================================================== */
+
+.subjects-content-box {
+  padding: 60px 0px 60px 0px;
+  background-color: #231E29;
+  margin-top: 15%;
+}
+
+.subject-item {
+  /* Padding format: TOP, RIGHT, BOTTOM, LEFT */
+  padding: 20px 0 20px 0;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+#my-subjects-title {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+/* maths #ff9d00  */
+
+#subject-maths {
+  width: 20%;
+  color: #ff9d00;
+  margin: 0 auto;
+}
+
+#title-maths {
+  font-family: 'Noto Serif', serif;
+  width: 20%;
+  margin: 5% 0 0 40%;
+  color: white;
+  text-transform: uppercase;
+}
+
+/* English #0488f4  */
+
+#subject-english {
+  width: 20%;
+  color: #0488f4;
+  margin: 0 auto;
+}
+
+#title-english {
+  font-family: 'Noto Serif', serif;
+  width: 20%;
+  margin: 5% 0 0 39%;
+  color: white;
+  text-transform: uppercase;
+}
+
+/* Science #660099  */
+
+#subject-science {
+  width: 20%;
+  color: #660099;
+  margin: 0 auto;
+}
+
+#title-science {
+  font-family: 'Noto Serif', serif;
+  width: 20%;
+  margin: 5% 0 0 38%;
+  color: white;
+  text-transform: uppercase;
+}
+
+/* History red  */
+
+#subject-history {
+  width: 20%;
+  color: red;
+  margin: 0 auto;
+}
+
+#title-history {
+  font-family: 'Noto Serif', serif;
+  width: 20%;
+  margin: 5% 0 0 38%;
+  color: white;
+  text-transform: uppercase;
+}
+
+#subject-geography {
+  width: 20%;
+  color: #ff9d00;
+  margin: 0 auto;
+}
+
+#title-geography {
+  font-family: 'Noto Serif', serif;
+  width: 20%;
+  margin: 5% 0 0 33%;
+  color: white;
+  text-transform: uppercase;
+}
+
+#subject-commerce {
+  width: 20%;
+  color: #00ffa1;
+  margin: 0 auto;
+}
+
+#title-commerce {
+  font-family: 'Noto Serif', serif;
+  width: 20%;
+  margin: 5% 0 0 36%;
+  color: white;
+  text-transform: uppercase;
+}
+
+#subject-engineering {
+  width: 20%;
+  color: #5d00ff;
+  margin: 0 auto;
+}
+
+#title-engineering {
+  font-family: 'Noto Serif', serif;
+  width: 20%;
+  margin: 5% 0 0 30%;
+  color: white;
+  text-transform: uppercase;
+}
+
+#subject-pass {
+  width: 20%;
+  color: #ffec5a;
+  margin: 0 auto;
+}
+
+#title-pass {
+  font-family: 'Noto Serif', serif;
+  width: 20%;
+  margin: 5% 0 0 42%;
+  color: white;
+  text-transform: uppercase;
+}
+
+#subject-pdhpe {
+  width: 20%;
+  color: #1d870d;
+  margin: 0 auto;
+}
+
+#title-pdhpe {
+  font-family: 'Noto Serif', serif;
+  width: 20%;
+  margin: 5% 0 0 40%;
+  color: white;
+  text-transform: uppercase;
+}
+
+/*========================================================================
+                            SOCIAL
+========================================================================== */
+#social-icons {
+  margin: 0 auto 0 40%;
+
+}
+
+.social-icon i {
+  font-size: 60px;
+  letter-spacing: 10px;
+}
+
+.icon-gray i {
+  color: #64707b;
+}
+
+.social-icon i:hover {
+  color: #0488f4;
+}
+
+
+/*========================================================================
+                            CONTACT
+========================================================================== */
+#contact-cover {
+  padding-top: 1%;
+  height: 100vh;
+  width: auto;
+  background-image: url("../img/bg-contact01.jpeg");
+}
+
+#contact-btn {
+  margin: 200px 0 0 5%;
+}
+
+#contact-me {
+  color: black;
+  text-align: center;
+}
+
+#email {
+  color: #0488f4;
+  text-align: center;
+}
+#contact-underline {
+  width: 100px;
+  height: 2px;
+  background-color: #0488f4;
+  margin: 0 0 5% 5%;
+}
+
+/*========================================================================
+                          MEDIA QUERY
+========================================================================== */
+@media (max-width: 550px) {
+  #home-cover{
+    background-attachment: scroll;
+  }
+
+}
+
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  #home-cover{
+    background-attachment: scroll;
+  }
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #home-cover {
+    background-attachment: scroll;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #home-cover {
+    background-attachment: scroll;
+  }
+}
