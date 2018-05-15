@@ -441,7 +441,7 @@ a {
 }
 
 #contact-btn {
-  margin: 200px 0 0 5%;
+  margin: 140px 0 0 4%;
 }
 
 #contact-me {
@@ -453,6 +453,7 @@ a {
   color: #0488f4;
   text-align: center;
 }
+
 #contact-underline {
   width: 100px;
   height: 2px;
